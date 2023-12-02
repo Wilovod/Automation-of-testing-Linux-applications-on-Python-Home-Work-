@@ -20,4 +20,5 @@ def check_output_text(command, target_text):
 command = 'cat /etc/os-release'
 target_text = 'Ubuntu 22.04.1 LTS'
 is_text_found = check_output_text(command, target_text)
+
 print(is_text_found)
